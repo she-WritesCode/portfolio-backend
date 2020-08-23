@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_sections",
+  "info": {
+    "name": "section",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

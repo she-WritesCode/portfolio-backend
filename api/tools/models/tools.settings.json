@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tools",
+  "info": {
+    "name": "Tools"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "dynamiczone",
+      "components": [
+        "about.icon",
+        "about.img"
+      ]
+    }
+  }
+}

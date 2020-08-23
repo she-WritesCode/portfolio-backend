@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interests",
+  "info": {
+    "name": "Interests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.icon"
+    }
+  }
+}

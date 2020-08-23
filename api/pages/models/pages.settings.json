@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.section"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "headerContent": {
+      "type": "richtext"
+    }
+  }
+}
